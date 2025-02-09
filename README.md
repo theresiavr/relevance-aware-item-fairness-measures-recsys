@@ -13,7 +13,8 @@ The code is usable under the MIT License. Please note that RecBole may have diff
 
 # Citation
 
-TBA
+--TBA--
+
 If you use the code for the relevance-aware (joint) fairness measures in `metrics.py`, please cite the following work:
 
 ```BibTeX
