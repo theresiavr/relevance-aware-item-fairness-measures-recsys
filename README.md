@@ -35,7 +35,7 @@ series = {SIGIR '24}
 }
 ```
 
-If you use the code for the exposure-based fairness measures in `metrics.py` (FairWORel), please cite our the following work and the original papers proposing the measures.
+If you use the code for the exposure-based fairness measures in `metrics.py` (FairWORel), please cite the following work and the original papers proposing the measures.
 
 ```BibTeX
 @article{10.1145/3631943,
