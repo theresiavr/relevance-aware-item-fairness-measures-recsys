@@ -1,15 +1,17 @@
 # Relevance-aware Individual Item Fairness Measures in Recommender Systems ⚖
 
-This repository contains the code for the _extra_ experiments and analyses in our work on "Relevance-aware Individual Item Fairness Measures in Recommender Systems", which is currently under review (single-blind). 
-This work extends the SIGIR'24 full paper "Can We Trust Recommender System Fairness Evaluation? The Role of Fairness and Relevance" by Theresia Veronika Rampisela, Tuukka Ruotsalo, Maria Maistro, and Christina Lioma. 
-The code for the original experiments is available [here](https://github.com/theresiavr/can-we-trust-recsys-fairness-evaluation).
+This repository contains the code for the _extra_ experiments and analyses in our work on "Relevance-aware Individual Item Fairness Measures for Recommender Systems: Limitations and Usage Guidelines" by Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Falk Scholer, and Christina Lioma.
+The work has been accepted to ACM Transaction on Recommender Systems (ACM TORS).
 
-Links to the SIGIR'24 paper: 
+Links: TBA
+
+This work is an extension of the SIGIR'24 full paper "Can We Trust Recommender System Fairness Evaluation? The Role of Fairness and Relevance" by Theresia Veronika Rampisela, Tuukka Ruotsalo, Maria Maistro, and Christina Lioma. The code for the original experiments is available [here](https://github.com/theresiavr/can-we-trust-recsys-fairness-evaluation).
+
+Links to the SIGIR'24 paper:
 [[ACM]](https://doi.org/10.1145/3626772.3657832) [[arXiv]](https://arxiv.org/abs/2405.18276) 
 
-
-# License and Terms of Usage
-The code is usable under the MIT License. Please note that RecBole may have different terms of usage (see [their page](https://github.com/RUCAIBox/RecBole) for updated information).
+# Abstract
+Recommender Systems (RSs) aim to provide relevant items to users, with a recent emphasis on improving recommendation fairness. Quantifying fairness of the recommended items can be done with two types of evaluation measures: measures that are purely based on item exposure (_exposure-based_) and measures that account for both item exposure and item relevance (_relevance-aware_). While exposure-based measures have been thoroughly analysed, relevance-aware measures have not been examined in such detail yet. We gather all existing relevance-aware individual item fairness measures for RSs and study their theoretical properties. We find that all measures suffer from one or more limitations, which may cause issues in their computation, interpretability, or expressiveness. To address this, we correct the affected measures or explain why a limitation is unresolvable. Further, we empirically investigate the extent of the limitations on the measures and compare the original measures to our reformulations under common and extreme evaluation scenarios across real-world and synthetic data. Our experiments show that our reformulated measures successfully resolve the issues in the original measures. We conclude by providing practical guidelines on how to select measures for a range of use cases.
 
 # Citation
 
@@ -56,6 +58,8 @@ numpages = {52},
 keywords = {Item fairness, individual fairness, fairness measures, evaluation measures, recommender systems}
 }
 ```
+# License and Terms of Usage
+The code is usable under the MIT License. Please note that RecBole may have different terms of usage (see [their page](https://github.com/RUCAIBox/RecBole) for updated information).
 
 # Datasets, Model Training, and Experiments
 Please refer to the [code repository of the SIGIR'24 paper](https://github.com/theresiavr/can-we-trust-recsys-fairness-evaluation) to find information on dataset downloads, model training, and the experiment code for the conference paper.
