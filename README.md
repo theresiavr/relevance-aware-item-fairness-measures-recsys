@@ -3,7 +3,7 @@
 This repository contains the code for the _extra_ experiments and analyses in our work on "Relevance-aware Individual Item Fairness Measures for Recommender Systems: Limitations and Usage Guidelines" by Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Falk Scholer, and Christina Lioma.
 The work has been accepted to ACM Transaction on Recommender Systems (ACM TORS).
 
-Links: [[ACM] (not active yet)](https://dx.doi.org/10.1145/3765624)
+Link: [[ACM]](https://dx.doi.org/10.1145/3765624)
 
 This work is an extension of the SIGIR'24 full paper "Can We Trust Recommender System Fairness Evaluation? The Role of Fairness and Relevance" by Theresia Veronika Rampisela, Tuukka Ruotsalo, Maria Maistro, and Christina Lioma. The code for the original experiments is available [here](https://github.com/theresiavr/can-we-trust-recsys-fairness-evaluation).
 
@@ -15,9 +15,23 @@ Recommender Systems (RSs) aim to provide relevant items to users, with a recent 
 
 # Citation
 
---TBA--
+```BibTeX
+@article{10.1145/3765624,
+author = {Rampisela, Theresia Veronika and Maistro, Maria and Ruotsalo, Tuukka and Scholer, Falk and Lioma, Christina},
+title = {Relevance-aware Individual Item Fairness Measures for Recommender Systems: Limitations and Usage Guidelines},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3765624},
+doi = {10.1145/3765624},
+note = {Just Accepted},
+journal = {ACM Trans. Recomm. Syst.},
+month = sep,
+keywords = {relevance-aware fairness, item fairness, individual fairness, evaluation measures, recommender systems}
+}
+```
 
-If you use the code for the relevance-aware (joint) fairness measures in `metrics.py`, please cite the following work:
+If you use the code for the relevance-aware (joint) fairness measures in `metrics.py`, please also cite the following work:
 
 ```BibTeX
 @inproceedings{10.1145/3626772.3657832,
