@@ -3,7 +3,7 @@
 This repository contains the code for the _extra_ experiments and analyses in our work on "Relevance-aware Individual Item Fairness Measures for Recommender Systems: Limitations and Usage Guidelines" by Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Falk Scholer, and Christina Lioma.
 The work has been accepted to ACM Transaction on Recommender Systems (ACM TORS).
 
-Links: TBA
+Links: [[ACM] (not active yet)](https://dx.doi.org/10.1145/3765624)
 
 This work is an extension of the SIGIR'24 full paper "Can We Trust Recommender System Fairness Evaluation? The Role of Fairness and Relevance" by Theresia Veronika Rampisela, Tuukka Ruotsalo, Maria Maistro, and Christina Lioma. The code for the original experiments is available [here](https://github.com/theresiavr/can-we-trust-recsys-fairness-evaluation).
 
